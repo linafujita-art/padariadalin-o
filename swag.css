@@ -1,0 +1,7 @@
+body {
+    background-image: url(imagens/images.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: orange;
+}
