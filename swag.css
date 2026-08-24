@@ -1,5 +1,5 @@
 body {
-    background-image: url(imagens/lina.jpg);
+    background-image: url('imagens/lina.jpg');
     background-repeat: repeat;
     background-position: center;
     color: orange;
