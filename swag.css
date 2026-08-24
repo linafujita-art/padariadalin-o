@@ -3,6 +3,5 @@ body {
     background-repeat: repeat;
     background-position: center;
     color: orange;
-    display: flex;
     justify-content: center;
 }
