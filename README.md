@@ -1,2 +1,105 @@
 # padariadalin-o
 Site de produtos alimenticios
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria em Londrina</title>
+    <link rel="stylesheet" href="swag.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO: identidade + menu de navegação -->
+    <header class="cabecalho">
+        <h1>Padaria Pão &amp; Cia</h1>
+        <p class="subtitulo">A melhor padaria de Londrina</p>
+        <nav class="menu">
+            <a href="#destaques">Destaques</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- APRESENTAÇÃO: tags de autoria (blockquote, cite, strong, em) -->
+        <section class="intro">
+            <blockquote>
+                <p>"Feito com fermento natural e muito carinho, todos os dias."</p>
+                <cite>— Equipe da Padaria Pão &amp; Cia</cite>
+            </blockquote>
+            <p>Somos uma padaria artesanal em <strong>Londrina</strong>. Aqui você encontra
+               <em>doces, bolos, salgados e sobremesas</em> feitos na hora.</p>
+        </section>
+
+        <!-- DESTAQUES: cards em Flexbox -->
+        <section id="destaques" class="destaques">
+            <h2>Destaques do dia</h2>
+            <div class="cards">
+                <article class="card">
+                    <!-- Troque a URL abaixo pelo caminho da sua foto: src="img/pao-de-mel.jpg" -->
+                    <img src="imagens/Pao-de-Mel.jpg" alt="Pão de mel artesanal coberto com chocolate" width= "300" height="300">
+                    <h3>Pão de Mel Artesanal</h3> 
+                    <p>Massa macia com recheio de doce de leite.</p>
+                </article>
+                <article class="card">
+                    <img src="imagens/bolodefubacomgoiabada.jpg" width= "300" height="300">
+                    <h3>Bolo de Fubá com Goiabada</h3>
+                    <p>O clássico da tarde, quentinho.</p>
+                </article>
+                <article class="card">
+                    <img src="imagens/coxinha.jpeg" alt="Coxinha de frango com catupiry" width= "300" height="300">>
+                    <h3>Coxinha com Catupiry</h3>
+                    <p>Crocante por fora, cremosa por dentro.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- CARDÁPIO: a tabela original, agora semântica e estilizada -->
+        <section id="cardapio" class="cardapio">
+            <h2>Cardápio completo</h2>
+            <table class="tabela-cardapio">
+                <caption>Nossos produtos por categoria</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Categoria</th>
+                        <th scope="col">Exemplo 1</th>
+                        <th scope="col">Exemplo 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Doces</strong></td>
+                        <td>Pão de Mel artesanal</td>
+                        <td>Brigadeiro Gourmet</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Bolos</strong></td>
+                        <td>Bolo de Fubá com Goiabada</td>
+                        <td>Bolo de Chocolate Supremo</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Salgados</strong></td>
+                        <td>Coxinha de Frango com Catupiry</td>
+                        <td>Pão de Queijo Mineiro</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sobremesas</strong></td>
+                        <td>Pudim de Leite Condensado</td>
+                        <td>Taça da Felicidade</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer id="contato" class="rodape">
+        <p>Rua das Flores, 123 — Londrina/PR · (43) 99999-0000</p>
+        <p><small>Site desenvolvido pelos alunos do CEEP Castaldi · 2026</small></p>
+    </footer>
+
+</body>
+</html>
