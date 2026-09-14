@@ -1,12 +1,4 @@
-body {
-    background-image: url('imagens/lina.jpg');
-    text-align: center;
-    text-shadow: chocolate;
-}
-.tabela.cardapio{
-    justify-content: center;
-    text-align: center;
-}
+
 /* =========================================================
    PADARIA PÃO & CIA — CSS do Encontro 1
    Paleta com contraste aprovado no padrão WCAG AA
