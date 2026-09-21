@@ -13,13 +13,13 @@ body {
     line-height: 1.6;
     margin: 0;
     color: #3B2A1E;             /* marrom escuro (texto) */
-    background-color: #2eb9db;  /* creme (fundo) */
+    background-color: #9ecbd6;  /* creme (fundo) */
 }
 
 /* ===== Cabeçalho ===== */
 .cabecalho {
-    background-color: #158a9e;  /* âmbar escuro — texto branco tem contraste AA */
-    color: #30578a;
+    background-color: #387f8b;  /* âmbar escuro — texto branco tem contraste AA */
+    color: #193d46;
     text-align: center;
     padding: 24px 16px;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .menu a {
-    color: #FFFFFF;
+    color: #974343;
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
