@@ -55,7 +55,7 @@ blockquote {
     border-left: 4px solid #1a6fa0;
     margin: 0 0 16px;
     padding: 8px 16px;
-    background-color: #cfc4c4;
+    background-color: #c6d4dd;
 }
 
 /* ===== Cards de destaque (Flexbox) ===== */
@@ -70,7 +70,7 @@ blockquote {
     border: 1px solid #30357a;
     border-radius: 8px;
     padding: 12px;
-    background-color: #cfc4c4;
+    background-color: #c6d4dd;
 }
 
 .card img {
